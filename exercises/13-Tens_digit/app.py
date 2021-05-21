@@ -1,9 +1,8 @@
 #Complete the function to return the tens digit of a given interger
 def tens_digit(num):
-  return None
-
-
+    tensDigit = int(str(num)[-2])
+    return tensDigit
 
 
 #Invoke the function with any interger.
-print(tens_digit())
+print(tens_digit(170))
